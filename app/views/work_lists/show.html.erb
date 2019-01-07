@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @work_list.date %>
+</p>
+
+<p>
+  <strong>Work:</strong>
+  <%= @work_list.work %>
+</p>
+
+<%= link_to 'Edit', edit_work_list_path(@work_list) %> |
+<%= link_to 'Back', work_lists_path %>
